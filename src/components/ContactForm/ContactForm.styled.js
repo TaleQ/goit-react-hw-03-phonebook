@@ -21,6 +21,7 @@ align-items: baseline;
 export const FormInput = styled(Input)`
 width: 70%;
 margin-top: 5px;
+margin-left: 5px;
 @media screen and (min-width: 768px) {
   margin-top: 0;
   margin-left: 10px;
