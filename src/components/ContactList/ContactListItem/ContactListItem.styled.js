@@ -6,16 +6,11 @@ display: flex;
 gap: 15px;
 justify-content: center;
 font-size: 22px;
-/* &::before{
-  content: "";
-  width: 20px;
-  height: 20px;
-  background-color: blue;
-  background-image: url(src/img/contact_icon.png);
-  background-position: cover;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-} */
+@media screen and (max-width: 767px) {
+  flex-direction: column;
+  align-items: center;
+
+}
 `
 
 export const DeleteButton = styled(Button)`
